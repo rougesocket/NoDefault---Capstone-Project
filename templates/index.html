@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <link href="static/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container-fluid" style="background: linear-gradient(to left, #06beb6, #48b1bf);">
+    <header>
+        <nav class="navbar navbar-expand-lg container navbar-light pt-3">
+            <a class="navbar-brand font-weight-bolder text-light" href="/index"><span style="font-size: 1.5rem!important;">No defaulter</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="/index">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </div>
+          </nav>
+    </header>
+</div>
+
+
+
+
+
+
+  <div class="main-box p-3">
+
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 my-3">
+                  <div>
+                    <img src="static/undraw_predictive_analytics_kf9n.svg" alt="" class="w-100">
+                  </div>
+              </div>
+
+
+
+              <div class="col-lg-1 col-md-1 col-sm-0"></div>
+                <div class="col-lg-5 col-md-6 col-sm-12 rounded">
+                  <div class="d-flex align-items-center w-100 h-100">
+
+                    <div class="bg-light p-3 w-100">
+
+                    <h5 class="text-center my-2 font-weight-normal">Get Prediction</h5>
+                    <form action="/predict" method="post">
+                        <div class="form-group">
+                          <label for="ip1">Income</label>
+                          <input type="text" class="form-control" id="ip1" name="ip1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ip2">Age</label>
+                            <input type="text" class="form-control" id="ip2" name="ip2" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="ip3">Experience</label>
+                            <input type="text" class="form-control" id="ip3"  name="ip3" required>
+                          </div>
+                          <div class="text-center mb-2">
+                                <button type="submit" class="btn main-box text-light w-100">Submit</button>
+                          </div>
+                      </form>
+                  </div>
+                  </div>
+
+
+              </div>
+          </div>
+        </div>
+  </div>
+
+
+
+
+      <!--some scripts-->
+
+
+
+        <div class="container text-center">
+          <h1 class="display-4 my-5 text-center features" style="color:#219ebc">Features</h1>
+              <div class="container my-5 features-part">
+                  <div class="row ">
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                      <h1 >Reliable Prediction</h1>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12 ">
+                      <h1>Higly Trained Model</h1>
+
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                      <h1>High Accuracy</h1>
+
+                      </div>
+                  </div>
+
+          </div>
+      </div>
+
+
+      <footer class="mt-5">
+          <div class="foot-size text-center">
+              <div class="container text-light h-100 d-flex flex-column justify-content-between">
+
+                  <div class="mt-5">
+                      <h1>Loan defaulter</h1>
+                      <p>A project based on machine learning to predict loan defaulter</p>
+
+                  </div>
+                  <div class="text-center">
+                      <p class="text-uppercase">&copy All rights are reserved 2021</p>
+                  </div>
+
+              </div>
+
+          </div>
+      </footer>
+
+    <script src="https://kit.fontawesome.com/c03e57a261.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+
+
+</body>
+</html>
